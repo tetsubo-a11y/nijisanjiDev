@@ -1,0 +1,42 @@
+section.videos {
+  display: flex;
+  flex-wrap: wrap;
+}
+section.videos div.video {
+  border: 1px solid #cccccc;
+  border-right-style: none;
+  border-left-style: none;
+  margin: 3px;
+  width: 49%;
+  min-width: 340px;
+  display: grid;
+  grid-template-rows: auto 50px auto 20px;
+}
+section.videos .video img {
+  width: 100%;
+}
+
+section.videos .video .title {
+  padding: 5px;
+  overflow-y: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+section.videos .video .disc {
+  padding-top: 5px;
+  padding-left: 12px;
+  font-size: 14px;
+  color: #888888;
+}
+section.videos .video .sword {
+  bottom: 0px;
+  text-align: right;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+a,a:hover,a:visited{
+    color: inherit;
+    text-decoration: none;
+}
