@@ -42,3 +42,6 @@ a,a:hover,a:visited{
     color: inherit;
     text-decoration: none;
 }
+.display_none {
+  display: none;
+}
