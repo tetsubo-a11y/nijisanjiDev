@@ -24,7 +24,7 @@
         {% for p in v['peak_list'] %}
           <li><div class="li_item">
             <div class="li_if">ピーク値: {{p['peak_count']}}<br>{{p['str_time']}}</div>
-            <div><a href="p['video_url_1']" target="_blank">30s</a> <a href="p['video_url_2']" target="_blank">1m</a>
+            <div><a href="{{p['video_url_1']}}" target="_blank">30s</a> <a href="{{p['video_url_2']}}" target="_blank">1m</a>
           </div></li>
         {% endfor %}
         </ul></dd>
