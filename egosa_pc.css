@@ -43,5 +43,5 @@ a,a:hover,a:visited{
     text-decoration: none;
 }
 .display_none {
-  display: none;
+  display: none !important;
 }
