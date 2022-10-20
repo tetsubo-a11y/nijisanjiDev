@@ -16,6 +16,7 @@ section.videos div.video {
 section.videos .video img {
   grid-row: 1 / 4;
   width: 100%;
+  loading: lazy;
 }
 
 section.videos .video .title {

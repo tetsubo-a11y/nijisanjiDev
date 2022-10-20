@@ -14,6 +14,7 @@ section.videos div.video {
 }
 section.videos .video img {
   width: 100%;
+  loading: lazy;
 }
 
 section.videos .video .title {
